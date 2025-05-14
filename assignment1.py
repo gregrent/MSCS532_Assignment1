@@ -8,7 +8,6 @@
 #  A (list): The list of elements to be sorted.
 #  n (int): The number of elements in the list A.
 def insertionSort(A, n):
-   print ("insertionSort called") # placeholder for now
    for i in range(0, n):
         key = A[i]
         j = i - 1
@@ -20,7 +19,6 @@ def insertionSort(A, n):
 
 
 def main():
-    # Temporary test call
     A = [73, 8, 42, 19, 91, 27, 5, 64, 33, 50]
     insertionSort(A, len(A))
 
