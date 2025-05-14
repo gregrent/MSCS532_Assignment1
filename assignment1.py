@@ -19,6 +19,10 @@ def insertionSort(A, n):
    print(A)
 
 
-# Temporary test call
-A = [73, 8, 42, 19, 91, 27, 5, 64, 33, 50]
-insertionSort(A, len(A))
+def main():
+    # Temporary test call
+    A = [73, 8, 42, 19, 91, 27, 5, 64, 33, 50]
+    insertionSort(A, len(A))
+
+if __name__ == "__main__":
+    main()
