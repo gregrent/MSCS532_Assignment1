@@ -9,6 +9,14 @@
 #  n (int): The number of elements in the list A.
 def insertionSort(A, n):
    print ("insertionSort called") # placeholder for now
+   for i in range(0, n):
+        key = A[i]
+        j = i - 1
+        while j >= 0 and A[j] < key:
+            A[j + 1] = A[j]
+            j = j - 1
+        A[j + 1] = key
+   print(A)
 
 
 # Temporary test call
